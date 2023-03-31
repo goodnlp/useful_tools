@@ -29,7 +29,7 @@
 * 常用命令行学习 <br />
 (1) cd, 全称change directory, 后面跟随相对路径或者绝对路径，点击enter之后，就进入相应的文件夹。下面是常见例子。<br />
 
-停留在当前文件夹
+    * 停留在当前文件夹
 ```console
 goodnlp@linux:~$ cd .
 ```
