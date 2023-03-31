@@ -34,12 +34,59 @@
 goodnlp@linux:~$ cd .
 ```
 
+    * 回到上一层文件夹
+```console
+goodnlp@linux:~$ cd ..
+```
 
-(2) ls, 全称list。
+    * 回到当前用户的主文件夹
+```console
+goodnlp@linux:~$ cd ~
+```
+
+
+(2) ls, 全称list，列举出当前文件夹的文件和文件夹内容
+
+    * 停留在当前文件夹
+```console
+goodnlp@linux:~$ ls -lha
+```
+
+
 (3) pwd
+    * 查看当前文件夹路径，不迷路。
+```console
+goodnlp@linux:~$ pwd
+```
+
+
 (4) du, df
-(5) top
+
+    * 停留在当前文件夹
+```console
+goodnlp@linux:~$ du
+```
+
+
+(5) top，查看正在运行的进程，占用的cpu和内存资源。
+    * 停留在当前文件夹
+```console
+goodnlp@linux:~$ top
+```
+
 (6) ps aux
+
+    * 查看系统所有运行的进程
+```console
+goodnlp@linux:~$ ps aux
+```
+
+(7) cp
+(8) mv
+(9) rm
+(10) mkdir
+(11) chmod
+
 
 
 
