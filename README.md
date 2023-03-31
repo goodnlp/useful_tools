@@ -30,16 +30,19 @@
 (1) cd, 全称change directory, 后面跟随相对路径或者绝对路径，点击enter之后，就进入相应的文件夹。下面是常见例子。<br />
 
     * 停留在当前文件夹
+    
 ```console
 goodnlp@linux:~$ cd .
 ```
 
     * 回到上一层文件夹
+    
 ```console
 goodnlp@linux:~$ cd ..
 ```
 
     * 回到当前用户的主文件夹
+    
 ```console
 goodnlp@linux:~$ cd ~
 ```
@@ -48,6 +51,7 @@ goodnlp@linux:~$ cd ~
 (2) ls, 全称list，列举出当前文件夹的文件和文件夹内容
 
     * 停留在当前文件夹
+    
 ```console
 goodnlp@linux:~$ ls -lha
 ```
@@ -55,6 +59,7 @@ goodnlp@linux:~$ ls -lha
 
 (3) pwd
     * 查看当前文件夹路径，不迷路。
+    
 ```console
 goodnlp@linux:~$ pwd
 ```
@@ -63,6 +68,7 @@ goodnlp@linux:~$ pwd
 (4) du, df
 
     * 停留在当前文件夹
+    
 ```console
 goodnlp@linux:~$ du
 ```
@@ -70,6 +76,7 @@ goodnlp@linux:~$ du
 
 (5) top，查看正在运行的进程，占用的cpu和内存资源。
     * 停留在当前文件夹
+    
 ```console
 goodnlp@linux:~$ top
 ```
@@ -77,6 +84,7 @@ goodnlp@linux:~$ top
 (6) ps aux
 
     * 查看系统所有运行的进程
+    
 ```console
 goodnlp@linux:~$ ps aux
 ```
