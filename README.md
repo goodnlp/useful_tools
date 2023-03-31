@@ -31,7 +31,7 @@
 
 ```console
 goodnlp@linux:~$ cd .
-foo
+# stay in the current folder
 ```
 
 
