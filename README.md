@@ -49,34 +49,31 @@ goodnlp@linux:~$ cd ~
 
 
 (2) ls, 全称list，列举出当前文件夹的文件和文件夹内容
-
-    * 停留在当前文件夹
     
 ```console
-
+# 停留在当前文件夹
 goodnlp@linux:~$ ls -lha
 ```
 
 
 (3) pwd
-    * 查看当前文件夹路径，不迷路。
     
 ```console
+# 查看当前文件夹路径，不迷路。
 goodnlp@linux:~$ pwd
 ```
 
 
 (4) du, df
 
-    * 停留在当前文件夹
     
 ```console
+# 停留在当前文件夹
 goodnlp@linux:~$ du
 ```
 
 
 (5) top，查看正在运行的进程，占用的cpu和内存资源。
-    * 停留在当前文件夹
     
 ```console
 goodnlp@linux:~$ top
@@ -84,9 +81,9 @@ goodnlp@linux:~$ top
 
 (6) ps aux
 
-    * 查看系统所有运行的进程
     
 ```console
+# 查看系统所有运行的进程
 goodnlp@linux:~$ ps aux
 ```
 
