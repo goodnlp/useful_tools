@@ -35,15 +35,15 @@
 goodnlp@linux:~$ cd .
 ```
 
-    * 回到上一层文件夹
     
 ```console
+# 回到上一层文件夹
 goodnlp@linux:~$ cd ..
 ```
 
-    * 回到当前用户的主文件夹
     
 ```console
+# 回到当前用户的主文件夹
 goodnlp@linux:~$ cd ~
 ```
 
@@ -53,6 +53,7 @@ goodnlp@linux:~$ cd ~
     * 停留在当前文件夹
     
 ```console
+
 goodnlp@linux:~$ ls -lha
 ```
 
