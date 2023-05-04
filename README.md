@@ -20,11 +20,11 @@
 ## Git
 
 
-## Linux
+## Linux命令行学习
 
 * 简介
     * 这里学习Linux，主要是指学习Linux命令行的操作。
-    * 为什么要学习Linux命令行？ 现在主流的后端服务器都是以Linux为内核的操作系统，因此无论是做后端开发，还是跑机器学习的训练任务，学习Linux命令行是必须的，没有其它选择。
+    * 为什么要学习Linux命令行？ 现在主流的后端服务器都是以Linux为内核的操作系统，开发者首选的mac也是linux命令行操作，因此无论是做后端开发，还是跑机器学习的训练任务，学习Linux命令行是必须的，没有其它选择。
 
 * 常用命令行学习
 
@@ -49,7 +49,7 @@ goodnlp@linux:~$ cd ~
 (2) ls, 全称list，列举出当前文件夹的文件和文件夹内容
     
 ```console
-# 停留在当前文件夹
+# 这里的ls带有三个参数，l 代表long list(包含更多有关文件的信息如权限等), h代表human readable（文件大小转为MB）, a代表所有文件（包括隐藏文件）
 goodnlp@linux:~$ ls -lha
 ```
 
@@ -64,9 +64,15 @@ goodnlp@linux:~$ pwd
 
     
 ```console
-# 停留在当前文件夹
+# disk used, 计算磁盘使用的的空间，它是直接统计各文件各目录的大小得来的信息
 goodnlp@linux:~$ du
 ```
+
+```console
+# disk free, 计算磁盘空闲的的空间，它是通过文件系统磁盘块分配图进行计算出的信息
+goodnlp@linux:~$ df
+```
+
 
 (5) top，查看正在运行的进程，占用的cpu和内存资源。
     
@@ -77,9 +83,15 @@ goodnlp@linux:~$ top
 (6) ps aux
  
 ```console
-# 查看系统所有运行的进程
+# 查看系统所有运行的进程cpu和内存的使用量,进程号pid
 goodnlp@linux:~$ ps aux
 ```
+
+```console
+# 查看系统所有python的进程cpu和内存的使用量
+goodnlp@linux:~$ ps aux|grep python
+```
+
 
 (7) cp
 
@@ -96,14 +108,19 @@ goodnlp@linux:~$ mv file1 ./folder
 
 (9) rm
 ```console
-# 删除文件或者文件夹
+# 删除文件
 goodnlp@linux:~$ rm file1
+```
+
+```console
+# 删除文件夹
+goodnlp@linux:~$ rm -r folder1
 ```
 
 (10) mkdir
 
 ```console
-# 增加文件夹
+# 新建文件夹
 goodnlp@linux:~$ mkdir folder1
 ```
 
@@ -113,6 +130,8 @@ goodnlp@linux:~$ mkdir folder1
 # 改变对一个文件的权限
 goodnlp@linux:~$ chmod 777 file1
 ```
+
+
 
 ## 总结
 
