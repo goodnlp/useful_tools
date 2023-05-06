@@ -52,4 +52,14 @@ git add 后面接文件或者文件夹名称，可以把相应文件加入暂存
 (8) git checkout<br />
 
 
+(9) git rm <br />
+
+(10) git mv <br />
+
+
+
+
+
+
+
 
