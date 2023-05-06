@@ -25,6 +25,8 @@
 
 * 常用命令行学习
 
+可以通过网页的terminal进行实操学习： https://www.tutorialspoint.com/linux_terminal_online.php
+
 (1) cd, 全称change directory, 后面跟随相对路径或者绝对路径，点击enter之后，就进入相应的文件夹。下面是常见例子。<br />
     
 ```console
