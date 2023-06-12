@@ -33,6 +33,9 @@ remote repository，远程仓库，托管代码的服务器，可以简单的认
 
 ## 常用指令
 
+准备：登陆github.com，点击页面右上方的加号，点击“new repository”即可创建远程仓库。
+本文以本仓库为例，从远程仓库拷贝一份到本地工作区，然后示范下面各种git有关的命令行。
+
 (1) git clone<br />
 
 (2) git add <br />
