@@ -6,7 +6,7 @@
 
 * 常用命令行学习
 
-   * cd, 全称change directory, 后面跟随相对路径或者绝对路径，点击enter之后，就进入相应的文件夹。下面是常见例子。<br />
+  (1) cd, 全称change directory, 后面跟随相对路径或者绝对路径，点击enter之后，就进入相应的文件夹。下面是常见例子。<br />
     
    ```console
    # 停留在当前文件夹
@@ -24,21 +24,21 @@
    goodnlp@linux:~$ cd ~
    ```
 
-   * ls, 全称list，列举出当前文件夹的文件和文件夹内容
+   (2) ls, 全称list，列举出当前文件夹的文件和文件夹内容
     
    ```console
    # 这里的ls带有三个参数，l 代表long list(包含更多有关文件的信息如权限等), h代表human readable（文件大小转为MB）, a代表所有文件（包括隐藏文件）
    goodnlp@linux:~$ ls -lha
    ```
 
-   * pwd
+   (3) pwd
     
    ```console
    # 查看当前文件夹路径，不迷路。
    goodnlp@linux:~$ pwd
    ```
 
-   * du, df
+   (4) du, df
 
     
    ```console
@@ -52,13 +52,13 @@
    ```
 
 
-   * top，查看正在运行的进程，占用的cpu和内存资源。
+   (5) top，查看正在运行的进程，占用的cpu和内存资源。
     
    ```console
    goodnlp@linux:~$ top
    ```
 
-      * ps aux
+      (6) ps aux
 
    ```console
    # 查看系统所有运行的进程cpu和内存的使用量,进程号pid
@@ -71,21 +71,21 @@
    ```
 
 
-   * cp
+   (7) cp
 
    ```console
    # 复制文件或者文件夹
    goodnlp@linux:~$ cp file1 file2
    ```
 
-   * mv
+   (8) mv
   
    ```console
    # 移动文件或者文件夹
    goodnlp@linux:~$ mv file1 ./folder
    ```
 
-   * rm
+   (9) rm
 
 
    ```console
@@ -98,14 +98,14 @@
    goodnlp@linux:~$ rm -r folder1
    ```
 
-   * mkdir
+   (10) mkdir
 
    ```console
    # 新建文件夹
    goodnlp@linux:~$ mkdir folder1
    ```
 
-   * chmod
+   (11) chmod
 
    ```console
    # 改变对一个文件的权限
