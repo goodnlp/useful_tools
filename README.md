@@ -32,10 +32,24 @@
 
 
 ## Vim
-place holder
+
+* 简介
+    * Vim是一个文本编辑器，原本是Vi, 后来improve了，就叫Vim。
+    * 现在有很多强大的代码编辑器了，但是有时候只能操作远程服务器，面对的黑乎乎的命令框，就必须用文本编辑器来操作，其中Vim是默认会安装的编辑器。
+    * Vim上手有点困难，但是多练就熟悉了。本教程目的是给一个轻量级的 “无痛” 的学习过程。
+
+* 常用操作学习
+链接： https://github.com/goodnlp/useful_tools/blob/main/Vim.md
+
 
 ## Git
-place holder
+
+* 简介
+   * Git是一个分布式的版本控制系统，主要用于记录和追踪文件（尤其是文本文件）的修改。
+   * Git主要用于软件开发中协调，管理，同步一个团队程序员写代码的过程。
+
+* 常用操作学习
+链接： https://github.com/goodnlp/useful_tools/blob/main/Git.md
 
 
 ## 总结
