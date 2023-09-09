@@ -37,7 +37,8 @@ remote repository，远程仓库，托管代码的服务器，可以简单的认
 本文以本仓库为例，从远程仓库拷贝一份到本地工作区，然后示范下面各种git有关的命令行。
 
 (1) git clone<br />
-打开命令行窗口输入如下命令，就可以将远程仓库拷贝到本地电脑上。
+
+打开命令行窗口输入如下命令，就可以将远程仓库拷贝到本地电脑上。使用ls命令就可以看到一个userful_tools的文件夹，cd进入这个文件夹，可以看到这个仓库的各种文件。这个本地文件里面的空间就是我们的工作区了。
 
 ```console
 git clone https://github.com/goodnlp/useful_tools.git
