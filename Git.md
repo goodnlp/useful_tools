@@ -63,44 +63,48 @@ git commit practice.txt -m "add practice.txt"
 
 (4) git push origin <br />
 
+上文在本地仓库增加了一个新的文件（类似于在本地写了一些新的代码），现在需要将这一个更新推送到远程仓库，使用如下命令行就可以做到。
+其中git push orgin就是将本地更新推送到远程仓库的意思，第一个main是本地仓库的名字，第二个main是远程仓库的名字。
+
 ```console
 git push origin main:main
 ```
 
 (5) git fetch<br />
 
+
 ```console
-git fetch
+git fetch origin main
 ```
 
 (6) git merge<br />
 
 ```console
-git push origin main:main
+git merge origin/main
 ```
 
 (7) git branch<br />
 
 ```console
-git push origin main:main
+git branch
 ```
 
 (8) git checkout<br />
 
 ```console
-git push origin main:main
+git checkout
 ```
 
 (9) git rm <br />
 
 ```console
-git push origin main:main
+git rm
 ```
 
 (10) git mv <br />
 
 ```console
-git push origin main:main
+git mv
 ```
 
 
