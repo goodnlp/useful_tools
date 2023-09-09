@@ -38,9 +38,10 @@ remote repository，远程仓库，托管代码的服务器，可以简单的认
 
 (1) git clone<br />
 打开命令行窗口输入如下命令，就可以将远程仓库拷贝到本地电脑上。
-'''
+
+```console
 git clone https://github.com/goodnlp/useful_tools.git
-'''
+```
 
 (2) git add <br />
 git add 后面接文件或者文件夹名称，可以把相应文件加入暂存区
