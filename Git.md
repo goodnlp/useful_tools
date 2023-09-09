@@ -38,28 +38,73 @@ remote repository，远程仓库，托管代码的服务器，可以简单的认
 
 (1) git clone<br />
 
+打开命令行窗口输入如下命令，就可以将远程仓库拷贝到本地电脑上。使用ls命令就可以看到一个userful_tools的文件夹，cd进入这个文件夹，可以看到这个仓库的各种文件。这个本地文件里面的空间就是我们的工作区了。
+
+```console
+git clone https://github.com/goodnlp/useful_tools.git
+```
+
 (2) git add <br />
-git add 后面接文件或者文件夹名称，可以把相应文件加入暂存区
+
+承接上文说的，在工作区，可以用vim practice.txt创建一个新的文本文件，然后使用git add 命令将它加入暂存区。
+git add 后面接文件或者文件夹名称，可以把相应文件加入暂存区。
+
+```console
+git add practice.txt
+```
 
 (3) git commit <br />
 
+git commit 后面接文件或者文件夹名称，可以把相应文件加入本地仓库。
+
+```console
+git commit practice.txt -m "add practice.txt"
+```
 
 (4) git push origin <br />
 
+```console
+git push origin main:main
+```
+
 (5) git fetch<br />
+
+```console
+git fetch
+```
 
 (6) git merge<br />
 
+```console
+git push origin main:main
+```
+
 (7) git branch<br />
+
+```console
+git push origin main:main
+```
 
 (8) git checkout<br />
 
+```console
+git push origin main:main
+```
 
 (9) git rm <br />
 
+```console
+git push origin main:main
+```
+
 (10) git mv <br />
 
+```console
+git push origin main:main
+```
 
+
+## 总结
 
 
 
