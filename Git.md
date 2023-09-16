@@ -71,6 +71,8 @@ git push origin main:main
 ```
 
 (5) git fetch<br />
+如果远程仓库的某个分支代码有更新（如队友更新了代码），则需要先使用git fetch将更新拿到本地，操作如下。
+其中origin指的是远程仓库，main指的是仓库分支的名字。
 
 
 ```console
