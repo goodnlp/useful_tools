@@ -111,12 +111,14 @@ git checkout dev
 ```
 
 (9) git rm <br />
+这个命令将文件从暂存区和工作区中删除，接下来可以使用git commit -m "delete file", 然后 git push origin main:main将修改提交到对应远程仓库。
 
 ```console
-git rm
+git rm test_git_rm.txt
 ```
 
 (10) git mv <br />
+git mv 和上面操作类似，可以将仓库中的文件在各个文件夹移动，也可以用来更改文件名字。
 
 ```console
 git mv
