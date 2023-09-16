@@ -80,21 +80,34 @@ git fetch origin main
 ```
 
 (6) git merge<br />
+使用git fetch 将远程仓库的更新拿到本地后，使用git merge就可以将本地仓库main 和远程仓库origin/main合并起来。比如
+practice.txt增加了一行内容后，本地仓库也会增加这一行内容。
+
+本地如果当前处于main分支，使用git merge origin/main 之后，就是将本地仓库main 和远程仓库origin/main合并起来。
 
 ```console
 git merge origin/main
 ```
 
 (7) git branch<br />
+使用这个命令就可以看到本地仓库的所有分支，开头带有*的就是当前工作分支。
+使用git branch -a可以产看所有本地和远程仓库的分支。
 
 ```console
 git branch
 ```
 
-(8) git checkout<br />
+使用git branch dev 就可以穿件名字是dev的新分支
 
 ```console
-git checkout
+git branch dev
+```
+
+(8) git checkout<br />
+使用如下命令可以切换到dev分支。
+
+```console
+git checkout dev
 ```
 
 (9) git rm <br />
